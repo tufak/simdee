@@ -13,7 +13,7 @@ type        | `width` | `scalar_t`      | satisfies concepts
 
 The `vec8` family is an alias for another type family, based on supported instruction sets:
 
-                            | if [`avx`](avx.md) is supported | otherwise
+type                        | if [`avx`](avx.md) is supported | otherwise
 ----------------------------|---------------------------------|----------------------------------                       
 `sd::vec8b` is an alias for | [`sd::avxb`](avx.md)            | [`sd::dual<sd::vec4b>`](dual.md)                        
 `sd::vec8f` is an alias for | [`sd::avxf`](avx.md)            | [`sd::dual<sd::vec4f>`](dual.md)                        

@@ -35,10 +35,10 @@ syntax         | result type               | description
 `x != y`       | [`vec_b`](SIMDVectorB.md) | scalar-wise not equal
 `~x`           | `T`                       | bit-wise not
 `x & y`        | `T`                       | bit-wise and
-`x | y`        | `T`                       | bit-wise or
+`x \| y`       | `T`                       | bit-wise or
 `x ^ y`        | `T`                       | bit-wise xor
 `x &= y`       | `T`                       | same as `x = x & y`
-`x |= y`       | `T`                       | same as `x = x | y`
+`x \|= y`      | `T`                       | same as `x = x | y`
 `x ^= y`       | `T`                       | same as `x = x ^ y`
 `andnot(x, y)` | `T`                       | same as `x & ~y`
 

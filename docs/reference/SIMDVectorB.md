@@ -32,7 +32,7 @@ syntax         | result type | description
 ---------------|-------------|---------------------------------------------------------------
 `!x`           | `T`         | scalar-wise logical not
 `x && y`       | `T`         | scalar-wise logical and, short-circuit evaluation is disabled
-`x || y`       | `T`         | scalar-wise logical or, short-circuit evaluation is disabled
+`x \|\| y`     | `T`         | scalar-wise logical or, short-circuit evaluation is disabled
 `andnot(x, y)` | `T`         | same as `x && !y`
 `x == y`       | `T`         | scalar-wise equal
 `x != y`       | `T`         | scalar-wise not equal
